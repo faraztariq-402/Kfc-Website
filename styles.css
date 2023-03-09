@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+.navbarmain{
+    margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+}
+.kfc{
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.wholebody{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.kfclogo img{
+    height: 6.8rem;
+    width: 90%;
+}
+
+li{
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: white;
+}
+button{
+    margin-bottom: 10px;
+}
+.fourthcontent{
+    height: 4rem;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(65, 59, 59);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-primary{
+    box-shadow: 4px 4px 5px rgb(39, 17, 17);
+margin-right: 1rem;
+}
+.btn-danger{
+    box-shadow: 4px 4px 5px rgb(39, 17, 17);
+    
+}
+.nav-link{
+    padding: 7px;
+}
+a{
+    
+    border: 2px solid rgb(65, 59, 59);
+    border-radius: 20px;
+    background-color: rgb(65, 59, 59);
+}
+.slider{
+  margin-top: 30px;  
+}
+.slider img{
+    height: 7rem;
+    width:100%;
+    border-radius: 1rem;
+}
+.browsecategories{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.items{
+    display: flex;
+    /* justify-content: center; */
+    overflow-x: scroll;
+}
+/* .items ::-webkit-scrollbar{
+    display:none;
+} */
+@media screen and (min-width:450px) {
+    .wholebody{
+    margin-left: 40px;
+margin-right:40px;
+}
+}
+@media screen and (min-width:532px) and (max-width:786px) {
+    .fourthcontent{
+width: 80%;
+    }
+    .slider img{
+        height: 17rem;
+    }
+}
+
+
+.items img{
+    height: 8.1rem;
+    width: 27%;
+    
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 2px dotted white;
+}
+@media screen and (min-width:1091px) {
+    .items{
+display: flex;
+justify-content: center;
+    }
+}
+@media screen and (min-width:800px) {
+    .fourthcontent{
+width: 80%;
+    }
+    .slider img{
+        height: 30rem;
+    }
+}
+@media screen and (min-width:976px) {
+    .items img{
+height: 8.5rem;
+width: 29%;
+    }
+}
+@media screen and (max-width:769px) {
+    .kfclogo img{
+        display: none;
+    }
+}
+@media screen and (min-width:769px) {
+    .kfc{
+        display: none;
+    }
+}
+@media screen and (min-width:1900px) {
+    .fourthcontent{
+        width: 87%;
+    }
+}
