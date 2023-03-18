@@ -20,10 +20,10 @@ align-items: center;
     color: white;
     margin-bottom: 10px;
 }
-.wholebody{
-    margin-left: 20px;
-    margin-right: 20px;
-}
+/* .wholebody{
+    margin-left: 15px;
+    margin-right: 15px;
+} */
 .kfclogo img{
     height: 6.8rem;
     width: 90%;
@@ -34,18 +34,33 @@ li{
     list-style-type: none;
     color: white;
 }
-button{
+/* button{
     margin-bottom: 10px;
-}
+} */
 .fourthcontent{
-    height: 4rem;
-    margin: auto;
+    height: 4.2rem;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
     width: 100%;
-    background-color: rgb(65, 59, 59);
+    background-color: rgb(37, 33, 33);
     border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.fourthcontent button{
+    height: 3.2rem;
+    width: 5.5rem;
+    border-radius:0.6rem ;
+    color: white;
+    background-color: rgb(105, 90, 90);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.fourthcontent p{
+    margin-top: 0px;
 }
 .btn-primary{
     box-shadow: 4px 4px 5px rgb(39, 17, 17);
@@ -55,21 +70,53 @@ margin-right: 1rem;
     box-shadow: 4px 4px 5px rgb(39, 17, 17);
     
 }
+.mainbutton{
+    display: flex;
+    float: right;
+}
+.mainbutton p{
+    position: relative;
+    top: 5px;
+}
+.deliverybutton button{
+    height: 2.9rem;
+    width: 8.5rem;
+    border-radius:0.7rem ;
+    color: white;
+    background-color: rgb(105, 90, 90);
+    font-size: 1.1rem;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pickupbutton button{
+    height: 2.9rem;
+    width: 8.5rem;
+    border-radius:0.7rem  1.5rem 1.5rem 0.7rem ;
+    color: white;
+    background-color: rgb(105, 90, 90);
+    font-size: 1.1rem;
+    font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .nav-link{
     padding: 7px;
 }
 a{
     
-    border: 2px solid rgb(65, 59, 59);
+    border: 2px solid rgb(37, 33, 33);
     border-radius: 20px;
-    background-color: rgb(65, 59, 59);
+    background-color: rgb(37, 33, 33);
 }
 .slider{
   margin-top: 30px;  
 }
 .slider img{
     height: 7rem;
-    width:100%;
     border-radius: 1rem;
 }
 .browsecategories{
@@ -77,21 +124,244 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
 }
-
+hr{
+    width: 98%;
+}
 .items{
     display: flex;
     /* justify-content: center; */
-    overflow-x: scroll;
 }
-/* .items ::-webkit-scrollbar{
-    display:none;
+.btn-group{
+    top: -5px;
+}
+.topcategories{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.parentcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.parentcard p{
+    margin-left: 1rem;
+}
+.parentcard span{
+    margin-right: 1rem;
+    position: relative;
+    top: -10px;
+}
+.parentcard button{
+    height: 2rem;
+    width: 7.8rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.card1{
+margin: 9px;
+height: 21rem;
+background-color:rgb(37, 33, 33)
+;border-radius: 1rem;
+}
+.card2{
+    height: 21rem;
+border-radius: 1rem;
+margin: 9px;
+
+ background-color:   rgb(37, 33, 33);  
+}
+.card3{
+border-radius: 1rem;
+margin: 9px;
+
+
+    height: 21rem;
+background-color:rgb(37, 33, 33)
+;}
+.card4{
+
+margin: 9px;
+
+    height: 21rem;
+   background-color: rgb(37, 33, 33); 
+border-radius: 1rem;
+
+}
+.parentcard img{
+    height: 12rem;
+    width: 97%;
+    margin:4px;
+    border-radius: 0.7rem;
+}
+footer{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(37, 33, 33);
+    margin-top: 8rem;
+  
+
+}
+/* .image1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } */
-@media screen and (min-width:450px) {
+.mainimages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.image2{
+    display: flex;
+justify-content: center;
+align-items: center;
+    margin-right: 20px;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}.image3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+.footercontents{
+    display: flex;
+    justify-content: space-around;
+}
+.footercontents h3,p{
+color: white;
+margin-top: 7px;
+}
+.footercontents p {
+    font-size: 14px;
+    color: rgb(203, 209, 209);
+}
+@media screen and (min-width:425px) {
+    .card1{
+        height: 20rem;
+    }
+    .card2{
+        height: 20rem;
+    } .card3{
+        height: 20rem;
+    } .card4{
+        height: 20rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .parentcard button{
+        display: none;
+    }
+    .footercontents{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+    .content4{
+        margin-left: -12px;
+    }
+}
+@media screen and (min-width:768px) {
+    span{
+        display: none;
+    }
+    .footercontents img{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        height: 65vh;
+    }
+}
+@media screen and (max-width:625px) {
+.card1,.card2,.card3,.card4{
+    margin: 7px;
+    margin-top: 12px;
+}
+}
+
+@media screen and (max-width:768px) {
+    .card1{
+        width: 45%;
+    }
+    .card2{
+        width: 45%;
+    }
+      .card3{
+        width: 45%;
+    }
+      .card4{
+        width: 45%;
+    }
     .wholebody{
-    margin-left: 40px;
-margin-right:40px;
+          margin-left: 10px;
+margin-right:10px;
+
+    }
 }
+@media screen and (min-width:768px) {
+    .parentcard{
+        justify-content: center;
+    }
+    .card1{
+        width: 20rem;
+    }
+    .card2{
+        width: 20rem;
+    }
+      .card3{
+        width: 20rem;
+    }
+      .card4{
+        width: 20rem;
+    }
+    .wholebody{
+          margin-left: 13px;
+margin-right:13px;
+
+    }
 }
+@media screen and (max-width:990px) {
+    .mainbutton button{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:990px) {
+    .fourthcontent{
+        display: none;
+    }
+
+}
+/* @media screen and (min-width:450px) {
+    .wholebody{
+    margin-left: 20px;
+margin-right:20px;
+}
+} */
 @media screen and (min-width:532px) and (max-width:786px) {
     .fourthcontent{
 width: 80%;
@@ -103,13 +373,11 @@ width: 80%;
 
 
 .items img{
-    height: 8.1rem;
-    width: 27%;
+
     
     margin-bottom: 30px;
     margin-left: 20px;
     border-radius: 15px;
-    border: 2px dotted white;
 }
 @media screen and (min-width:1091px) {
     .items{
@@ -122,24 +390,26 @@ justify-content: center;
 width: 80%;
     }
     .slider img{
-        height: 30rem;
+        height: 27rem;
+        width: 90%;
     }
 }
 @media screen and (min-width:976px) {
-    .items img{
-height: 8.5rem;
-width: 29%;
-    }
+
 }
 @media screen and (max-width:769px) {
     .kfclogo img{
         display: none;
+    }
+    .items{
+        overflow-x: scroll;
     }
 }
 @media screen and (min-width:769px) {
     .kfc{
         display: none;
     }
+
 }
 @media screen and (min-width:1900px) {
     .fourthcontent{
