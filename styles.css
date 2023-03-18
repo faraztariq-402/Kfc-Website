@@ -293,7 +293,7 @@ margin-top: 7px;
         flex-direction: column;
     }
     footer{
-        height: 65vh;
+        height: 76vh;
     }
 }
 @media screen and (max-width:625px) {
