@@ -197,14 +197,7 @@ border-radius: 1rem;
     margin:4px;
     border-radius: 0.7rem;
 }
-footer{
-    height: 90vh;
-    width: 100%;
-    background-color: rgb(37, 33, 33);
-    margin-top: 8rem;
-  
 
-}
 /* .image1 img{
     display: flex;
     justify-content: center;
@@ -259,6 +252,14 @@ margin-top: 7px;
     font-size: 14px;
     color: rgb(203, 209, 209);
 }
+footer{
+    height: 105vh;
+    width: 100%;
+    background-color: rgb(37, 33, 33);
+    margin-top: 8rem;
+  
+
+}
 @media screen and (min-width:425px) {
     .card1{
         height: 20rem;
@@ -283,6 +284,7 @@ margin-top: 7px;
     .content4{
         margin-left: -12px;
     }
+  
 }
 @media screen and (min-width:768px) {
     span{
@@ -292,7 +294,9 @@ margin-top: 7px;
         display: flex;
         flex-direction: column;
     }
-
+footer{
+    height: 80vh;
+}
 }
 @media screen and (max-width:625px) {
 .card1,.card2,.card3,.card4{
@@ -319,9 +323,7 @@ margin-top: 7px;
 margin-right:10px;
 
     }
-    footer{
-        height: 77vh;
-    }
+ 
 }
 @media screen and (min-width:768px) {
     .parentcard{
